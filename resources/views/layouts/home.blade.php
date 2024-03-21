@@ -8,6 +8,8 @@
     <title>{{ $title ?? 'Giestore' }}</title>
 </head>
 
+@vite('resources/css/app.css')
+
 @livewireStyles
 
 <body>
